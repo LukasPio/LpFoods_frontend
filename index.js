@@ -13,7 +13,7 @@ function showData(foods) {
 
         foodName.innerText  = food.name
         img.src = food.image
-        price.innerText  = food.price
+        price.innerText  = "R$" + food.price
 
         card.appendChild(img)
         card.appendChild(foodName)
