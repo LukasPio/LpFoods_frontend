@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', 'arial', 'sans-serif';
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(174, 43, 43);
+}
+
+.header-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(41, 41, 41);
+}
+
+.main-container {
+    padding: 20px;
+    background-color: rgb(53, 53, 49);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.food-card {
+    width: 400px;
+    height: 340px;
+    margin: 20px;
+}
+
+.food-img {
+    width: 400px;
+    height: 300px;
+}
+
+.food-name {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.food-price {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.foods {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+}
+
+.footer {
+    background-color: rgb(153, 153, 22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 400;
+}
